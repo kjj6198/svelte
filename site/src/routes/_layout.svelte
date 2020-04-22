@@ -37,12 +37,13 @@
 
 {#if $page.path !== '/repl/embed'}
 	<Nav {segment} {page} logo="svelte-logo-horizontal.svg">
-		<NavItem segment="tutorial">Tutorial</NavItem>
+		<NavItem segment="tutorial">教學</NavItem>
 		<NavItem segment="docs">API</NavItem>
-		<NavItem segment="examples">Examples</NavItem>
+		<NavItem segment="examples">範例</NavItem>
 		<NavItem segment="repl">REPL</NavItem>
-		<NavItem segment="blog">Blog</NavItem>
+		<NavItem segment="blog">部落格</NavItem>
 		<NavItem segment="faq">FAQ</NavItem>
+		<NavItem segment="languages">Languages</NavItem>
 
 		<NavItem external="https://sapper.svelte.dev">Sapper</NavItem>
 
